@@ -1,0 +1,34 @@
+{
+    "contenido": [
+      {
+        "tag": "Especialidades",
+        "patrones": ["(\\d{4}-\\d{2}-\\d{2})"],
+        "respuestas": ["xD"]
+      },
+      
+      {
+        "tag": "cancelar_agendacion",
+        "patrones": ["salir", "cancelar"],
+        "respuestas": ["Proceso de creación de citas cancelado."]
+      },
+      {
+        "tag": "EleccionEspecialidad",
+        "patrones": ["especialidad", "especialidades"],
+        "respuestas": [""]
+      },
+      {
+        "tag": "EleccionMedicos",
+        "patrones": ["medico", "medicos", "doctor", "doctora", "doctores", "doctoras"],
+        "respuestas": [""]
+      },
+      {
+        "tag": "EleccionHorarios",
+        "patrones": ["horario", "horarios", "hora", "horas"],
+        "respuestas": [""]
+      }
+      
+      
+      
+    ]
+  }
+  

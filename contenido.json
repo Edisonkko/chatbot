@@ -1,0 +1,111 @@
+{
+  "contenido": [
+    {
+      "tag": "saludo",
+      "patrones": ["Hola", "Buenos dias", "necesito ayuda", "Saludos","Buenas Tardes","Buenas noches"],
+      "respuestas": ["¡Hola! ¿En qué puedo ayudarte?", "Hola, ¿en qué puedo asistirte hoy?"]
+    },
+    {
+      "tag": "despedida",
+      "patrones": ["Gracias", "Nos vemos luego", "Adios", "hasta pronto", "Hasta la próxima","chao"],
+      "respuestas": ["¡Hasta luego!", "Que tengas un buen día. ¡Adiós!"]
+    },
+    {
+      "tag": "citas_medicas",
+      "patrones": ["una cita", "agendar una cita medica", "obtener una consulta", "Programar consulta","solicitar cita","crear cita","agendar citas"],
+      "respuestas": ["Para crear su cita debe ingresar la fecha."]
+    },
+    {
+      "tag": "ver_citas",
+      "patrones": ["ver mi cita", "mi cita agendada", "Consulta agendada", "Ver citas previas"," citas medicas agendadas","es mi cita"],
+      "respuestas": ["puede visualizar sus citas de dos maneras, una sería visualizar cita por fecha y la otra visualizar todas sus citas"]
+    },
+    {
+      "tag": "ver_citas_fecha",
+      "patrones": ["por fecha","cita por fecha","consulta por fecha"],
+      "respuestas": ["Ingrese la fecha:"]
+    },
+    { 
+      "tag": "ver_todas_citas",
+      "patrones": ["toda citas","todas citas","toda cita agendada","ver todos citas","citas completas","cita completa","mis citas"],
+      "respuestas": ["Aquí tienes tus citas:"]
+    },
+    {
+      "tag": "cancelar_cita",
+      "patrones": ["cancelar una cita", "Modificar cita existente", "cambiar mi cita", "Cancelar reserva", "anular cita","como cancelo"],
+      "respuestas": ["Elija la cita médica que desea Cancelar:"]
+    },
+    {
+      "tag": "documentos_requeridos",
+      "patrones": ["Que papeles necesito", "Documentos necesarios para consulta", "Requisitos para la cita medica", "Qué debo llevar a la cita"],
+      "respuestas": ["Al momento de tu cita médica, es importante que traigas contigo tu documento de identidad (DNI o pasaporte) y cualquier informe o estudio médico relevante que tengas. Esto nos ayudará a brindarte el mejor cuidado posible.", "Para tu cita médica, asegúrate de traer tu documento de identidad (DNI o pasaporte) y cualquier informe médico que consideres importante. Estos documentos nos permitirán tener un mejor entendimiento de tu historial de salud."]
+    },
+    {
+      "tag": "Asistente",
+      "patrones": ["Que puedes hacer", "Explicame tus funciones", "En qué me ayudas", "Hablame de tus habilidades"],
+      "respuestas": ["¡Claro! Estas son algunas de las cosas que puedo hacer por ti:\n1. Ayudarte a agendar citas médicas.\n2. Proporcionar información sobre tus citas médicas agendadas.\n3. Responder preguntas sobre documentos necesarios para tu cita médica.\n4. Asistirte en la cancelación o modificación de citas existentes.\n5. Brindarte detalles sobre horarios disponibles y especialidades médicas disponibles.\nSi tienes alguna otra pregunta o necesitas ayuda con algo más, no dudes en decírmelo."]
+    },
+    {
+      "tag": "informacion_dispensario",
+      "patrones": ["Donde están ubicados", "Direccion clinica","direccion  hospital","¿Donde se encuentra el dispensario"],
+      "respuestas": ["Nos complace proporcionarte la dirección de nuestro dispensario:\n\nNombre del Dispensario: [Seguro Campesino IESS]\nDirección: [Bambil Collao]\nCiudad: [Santa Elena]\n\nSi tienes alguna otra pregunta o necesitas más información, no dudes en contactarnos."]
+    },
+    {
+      "tag": "informacion_medico",
+      "patrones": ["Qué medicos estan disponibles", "Especialidades medicas disponibles","medicos disponibles", "Doctores para cita","disponibilidad de los medicos"],
+      "respuestas": ["En nuestro centro médico contamos con un equipo de profesionales altamente capacitados en diversas especialidades. Algunas de las especialidades médicas disponibles incluyen:\n1. Medicina General\n2. Odontología\nSi tienes alguna preferencia de especialidad o médico, no dudes en preguntarnos."]
+    },
+    {
+      "tag": "dias_atencion",
+      "patrones": ["atencion los fines de semana", "Abren en dias feriados", "Tienen servicio nocturno", "Dias disponibles","sabado y domingo"],
+      "respuestas":["Lamentablemente, nuestro dispensario no ofrece atención los fines de semana. Nuestro horario de atención es de lunes a viernes, de 8:00 a.m. a 4:30 p.m. Para agendar una cita u obtener asistencia, te recomendamos hacerlo dentro de nuestro horario laboral.","En días feriados, nuestro dispensario permanece cerrado. Te sugerimos agendar tus citas médicas en días hábiles para asegurar la disponibilidad. Si tienes una emergencia médica en un día feriado, te recomendamos comunicarte con servicios de emergencia o acudir a un hospital cercano."]
+    },
+    {
+      "tag": "Horarios",
+      "patrones": ["Horario de atencion","horarios disponibles","A qué hora abren","A qué hora cierran"],
+      "respuestas":["Nuestro horario de atención es de lunes a viernes, de 8:00 a.m. a 4:30 p.m.","El horario de atención de nuestro dispensario es de lunes a viernes, de 8:00 a.m. a 4:30 p.m."]
+    },
+    {
+      "tag": "registro",
+      "patrones": ["registrarse para agendar una cita", "Cómo crear una cuenta", "Cita sin tener cuenta", "Registro de pacientes"],
+      "respuestas":["Si deseas agendar una cita en nuestro dispensario, es recomendable que te registres en nuestro sistema web o aplicación móvil. El registro te permitirá tener acceso rápido y seguro a tus citas médicas, así como a tu historial de salud. Puedes crear una cuenta ingresando tus datos personales y siguiendo las instrucciones en nuestra plataforma.","Para crear una cuenta en nuestro sistema, simplemente ingresa a nuestro sitio web y busca la opción de 'Registro'. Completa el formulario con tu información personal y sigue los pasos para verificar tu cuenta. Una vez registrado, podrás agendar citas."]
+    },
+    {
+      "tag": "Pago",
+      "patrones": [
+        "paga citas medicas",
+        "costo consultas",
+        "costo citas",
+        "pagar servicios medicos",
+        "servicios gratuitos",
+        "pago cita",
+        "paga consulta"
+      ],
+      "respuestas": [
+        "Nuestros servicios médicos son cubiertos por el seguro. Si eres afiliado al seguro, las citas médicas y servicios relacionados están incluidos en tu cobertura. No es necesario realizar ningún pago adicional por los servicios médicos.",
+        "Nuestras citas médicas y servicios son gratuitos para los afiliados al seguro. Como parte de la cobertura de seguro, no es necesario pagar por los servicios médicos. Puedes agendar tus citas sin preocuparte por los costos adicionales."
+      ]
+    },
+    {
+      "tag":"Agente_virtual",
+      "patrones": [
+        "asesor en linea","ayuda en tiempo real","soporte virtual","ayuda instantánea","ayuda en vivo","asistencia online","asesoría en linea","atención virtual","soporte en tiempo real","consultor virtual","puedo comunicarme con un assesor"
+      ],
+      "respuestas": [
+        "Lo siento, pero no existe un asesor en línea. Soy un chatbot programado para ayudarte. ¿En qué puedo hacer por ti?",
+        "No hay disponible un asesor en línea. Sin embargo, estoy aquí para responder a tus preguntas como un chatbot. ¿En qué puedo ayudarte?",
+        "No hay un asesor en línea. Soy un chatbot y estoy aquí para proporcionarte asistencia. ¿Cómo puedo ayudarte?",
+        "Actualmente, no contamos con un asesor en línea. No obstante, estoy a tu disposición como un chatbot para resolver cualquier consulta que tengas. ¿En qué puedo colaborar?",
+        "Lamentablemente, no puedo proporcionarte un asesor en línea. Pero estoy aquí como un asistente virtual para responder a tus consultas. ¿En qué puedo servirte?"
+      ]
+    },
+    {
+      "tag": "EleccionCita",
+      "patrones": ["cita elegida","anular","cancelar"],
+      "respuestas": [""]
+    }
+    
+    
+    
+  ]
+}
